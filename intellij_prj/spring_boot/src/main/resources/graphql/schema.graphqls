@@ -1,0 +1,7 @@
+scalar LocalDate
+scalar LocalDateTime
+
+type Query {
+    serverTime : LocalDateTime
+}
+
