@@ -3,5 +3,17 @@ scalar LocalDateTime
 
 type Query {
     serverTime : LocalDateTime
+    teams:[Team]
 }
 
+
+type Team{
+    name:String
+    users:[User]
+#    teams:[Team]
+
+}
+
+type User{
+    name : String
+}

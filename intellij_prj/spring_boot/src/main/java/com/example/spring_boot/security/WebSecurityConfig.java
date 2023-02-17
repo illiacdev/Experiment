@@ -40,6 +40,7 @@ public class WebSecurityConfig {
                 .pathMatchers("/api/login2").permitAll()
                 .pathMatchers("/api/info").permitAll()
                 .pathMatchers("/graphql").permitAll()
+                .pathMatchers("/api/*").permitAll()
 //                .pathMatchers("/api/upload").permitAll()
 //                .pathMatchers("/api/login").permitAll()
 //                .pathMatchers("/graphql").permitAll()
